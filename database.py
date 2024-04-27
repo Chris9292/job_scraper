@@ -5,7 +5,6 @@ class Database:
 
     def __init__(self, job):
         self.username = 'postgres'
-        self.password = 'Chr!$t0tk'
         self.database = 'test'
         self.port = 5432 # default
         self.add_job_to_database(job)
